@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title">
+        <h1>Survey Form</h1>
+        <p>Complete the below survey then click on submit button</p>
+    </div>
+    <form class="survey-form">
+        <label class="labels" for="name">Enter Your Name</label>
+        <input class="inputs" type="text" name="name" id="name" placeholder="Full Name">
+        <label class="labels" for="email">Enter your Email</label>
+        <input class="inputs" type="text" name="email" id="email" placeholder="your Email">
+        <label class="labels" for="age">Enter your age</label>
+        <input class="inputs" type="text" name="age" id="age" placeholder="your Age">
+        <label class="labels courses" for="course">Which course do you wish to join ?</label>
+        <select class="inputs" name="course" id="course">
+            <option value="Web Designer" selected>Web Designer</option>
+            <option value="Front-End Developer">Front-End Developer</option>
+            <option value="Back-End Developer">Back-End Developer</option>
+            <option value="DataBase Maneger">DataBase Maneger</option>
+        </select>
+        <label class="labels" for="gender">Pick your gender</label>
+        <br>
+        <input type="radio" class="radio" name="gender" id="gender"><label for="gender">Male</label>
+        <br>
+        <input type="radio" class="radio" name="gender" id="gender"><label for="gender">Female</label>
+        <br>
+
+        <label class="labels" for="skills">Pick your skills</label>
+        <br>
+        <input class="checkbox" type="checkbox" name="skills" id="skills"><label for="skills">HTML</label>
+        <br>
+        <input class="checkbox" type="checkbox" name="skills" id="skills"><label for="skills">CSS</label>
+        <br>
+        <input class="checkbox" type="checkbox" name="skills" id="skills"><label for="skills">JavaScript</label>
+        <br>
+        <input class="checkbox" type="checkbox" name="skills" id="skills"><label for="skills">PHP</label>
+        <br>
+        <input class="checkbox" type="checkbox" name="skills" id="skills"><label for="skills">SQL</label>
+        <br>
+
+        <label class="labelstextarea" for="feedback">Give us any feedback</label>
+        <textarea class="textarea" name="feedback" id="feedback" cols="30" rows="10"></textarea>
+
+        <input type="submit" class="submit">
+
+    </form>
+    
+</body>
+</html>
